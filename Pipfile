@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[scripts]
+start = "python3 monitor-pir-sensor/main.py"
+
+[packages]
+redis = "*"
+rx = "*"
+create-subject = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.6"
